@@ -1,0 +1,30 @@
+[versions]
+jdk = "21"
+jre = "8"
+junit = "5.12.2"
+scala = "3.3.5"
+wartremover = "3.3.3"
+
+[plugins]
+wartremover = "cz.augi.gradle.wartremover:0.18.0"
+git-publish = "org.ajoberstar.git-publish:5.1.0"
+pages = "com.hanggrian.pages:0.2"
+
+[libraries]
+# lint
+# main
+scala = { module = "org.scala-lang:scala3-library_3", version.ref = "scala" }
+# test
+scalatest = "org.scalatest:scalatest_3:3.2.19"
+scalatestplus = "org.scalatestplus:junit-5-12_3:3.2.19.0"
+scala-xml = "org.scala-lang.modules:scala-xml_3:2.3.0"
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-platform-launcher = "org.junit.platform:junit-platform-launcher:1.12.2"
+truth = "com.google.truth:truth:1.4.4"
+
+[bundles]
+scala-test = [
+  "scalatest",
+  "scalatestplus",
+]
