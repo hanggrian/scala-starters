@@ -12,7 +12,8 @@ jvm-library | [Scala] | [JUnit 5] | [Maven Central] | [ScalaDoc], [Minimal] | &c
 
 ## Frameworks
 
-- JUnit testing framework with [Truth](https://truth.dev/) asserter.
+- JUnit testing framework with [Mockito](https://site.mockito.org/) suite and
+  [Truth](https://truth.dev/) asserter.
 - [WartRemover](https://www.wartremover.org/) code linter.
 - [JaCoCo](https://docs.gradle.org/current/userguide/jacoco_plugin.html) code
   coverage.

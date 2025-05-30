@@ -11,11 +11,8 @@ dependencies {
     implementation(project(":$releaseArtifact"))
     implementation(libs.scala)
 
-    testImplementation(libs.bundles.scala.test)
     testImplementation(platform(libs.junit.bom))
-    testImplementation(libs.junit.jupiter)
-    testImplementation(libs.truth)
+    testImplementation(libs.bundles.junit5)
 
-    testRuntimeOnly(libs.scala.xml)
     testRuntimeOnly(libs.junit.platform.launcher)
 }
