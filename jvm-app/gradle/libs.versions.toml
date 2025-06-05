@@ -6,7 +6,7 @@ scala = "3.3.6"
 wartremover = "3.3.3"
 
 [plugins]
-wartremover = "cz.augi.gradle.wartremover:0.18.2"
+wartremover-gradle = "cz.augi.gradle.wartremover:0.18.2"
 git-publish = "org.ajoberstar.git-publish:5.1.1"
 pages = "com.hanggrian.pages:0.2"
 

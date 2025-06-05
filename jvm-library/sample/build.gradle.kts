@@ -2,7 +2,7 @@ val releaseArtifact: String by project
 
 plugins {
     scala
-    alias(libs.plugins.wartremover)
+    alias(libs.plugins.wartremover.gradle)
     application
 }
 

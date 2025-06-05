@@ -19,7 +19,7 @@ val jdkVersion = JavaLanguageVersion.of(libs.versions.jdk.get())
 val jreVersion = JavaLanguageVersion.of(libs.versions.jre.get())
 
 plugins {
-    alias(libs.plugins.wartremover) apply false
+    alias(libs.plugins.wartremover.gradle) apply false
     alias(libs.plugins.maven.publish) apply false
 }
 

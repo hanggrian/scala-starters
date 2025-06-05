@@ -13,7 +13,7 @@ allprojects {
 plugins {
     scala
     application
-    alias(libs.plugins.wartremover)
+    alias(libs.plugins.wartremover.gradle)
     jacoco
 }
 
